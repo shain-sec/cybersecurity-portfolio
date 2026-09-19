@@ -79,7 +79,6 @@ Hands-on Security Operations laboratory focusing on:
 - Log analysis
 - Alert triage
 - Detection engineering
-- MITRE ATT&CK mapping
 - Incident investigation
 
 ---
