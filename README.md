@@ -1,235 +1,114 @@
 # 🛡️ Cybersecurity Portfolio
 
-This repository documents my journey from learning the fundamentals of cybersecurity to building practical security projects, conducting research, and developing hands-on experience in offensive and defensive security.
-
-Rather than simply collecting certificates, my goal is to understand how attackers operate, build systems that detect them.
+This repository documents my path from cybersecurity fundamentals to hands-on projects, research, and applied experience across offensive and defensive security. The focus isn't collecting certificates — it's understanding how attackers operate and building systems that detect them.
 
 ---
 
-# 👋 About Me
+## 👋 About Me
 
-Hi, I'm **Muhammed Shain**.
+I'm **Muhammed Shain**, an M.Sc. Cybersecurity graduate with hands-on experience across offensive and defensive security. I hold **CEH (EC-Council)**, **CPT (RedTeam Hacker Academy)**, and **ISO/IEC 27001 Information Security Associate** certifications.
 
-I completed my **M.Sc. in Cybersecurity** and earned certifications including **Certified Ethical Hacker (CEH)**, **Certified Penetration Tester (CPT)** and **ISO/IEC 27001 Information Security Associate**.
+I started with networking, Linux, and web fundamentals, then moved into ethical hacking and vulnerability assessment. Over time my focus has shifted toward the defensive side — SIEM, detection engineering, and threat hunting — and that shift is what my projects below reflect.
 
-Throughout my academic journey I developed an interest in both offensive and defensive security.
-- Finding security weaknesses
-- Understanding attacker behaviour
-- Building detection systems
-- Automating security tasks
-- Learning new security technologies
-
-My primary interests are:
+My core interests:
 
 - Security Operations (SOC)
-- Threat Detection
-- Threat Hunting
+- Threat Detection & Threat Hunting
 - Incident Response
+- Detection Engineering
 - Penetration Testing
 
 ---
 
-# 🚀 My Journey
+## 💼 Experience
 
-Like many people entering cybersecurity, I began by learning networking, Linux, operating systems and web technologies.
+That shift toward defensive security started during two internships:
 
-From there I started exploring ethical hacking, vulnerability assessment and penetration testing.
+**Cybersecurity Intern — Quantum Learnings**
+Built a multi-service honeypot ecosystem with ML-based attacker profiling — now my flagship project, detailed below.
 
-As my knowledge grew, I became increasingly interested in the defensive side of cybersecurity—understanding how attacks are detected, investigated and mitigated.
-
-That led me toward Security Operations (SOC), SIEM technologies, threat hunting and detection engineering.
-
-My projects reflect that progression—from offensive security techniques to building systems that strengthen defensive security.
+**Penetration Testing Intern — Cyber & Forensics Security Solutions (CFSS)**
+Conducted security testing engagements and was recognized with a Hall of Fame listing.
 
 ---
 
-# 🛠️ Featured Projects
+## 🛠️ Featured Projects
 
-## 🛡️ Honeypot Ecosystem with ML-Based Attacker Profiling
+### Honeypot Ecosystem with ML-Based Attacker Profiling
+Built during my internship at Quantum Learnings, this is a multi-service honeypot deployment that captures real attack traffic, analyzes attacker behavior, and classifies attacks using machine learning (Random Forest), surfaced through a centralized SOC-style dashboard.
 
-My flagship cybersecurity project.
+**Stack:** Python, Flask, Cowrie, Splunk, Kali Linux, VirtualBox
 
-A multi-service honeypot ecosystem designed to capture real attack traffic, analyse attacker behaviour and classify attacks using Machine Learning.
+**Capabilities:**
+- Multi-service honeypot deployment (SSH, web)
+- ML-based attacker classification
+- Centralized dashboard with attack analytics
 
-### Technologies
+### SOC Detection Lab
+A hands-on SOC environment covering SIEM investigations, log analysis, alert triage, detection engineering, and incident investigation.
 
-- Python
-- Flask
-- Cowrie
-- Splunk
-- Kali Linux
-- VirtualBox
+### Web Application Security Lab
+A penetration testing environment covering the OWASP Top 10 — SQL injection, XSS, authentication testing, and remediation recommendations — using Burp Suite.
 
-### Features
+### Python Security Tools
+A set of utilities for security automation: log analysis, IOC extraction, network reconnaissance, and detection workflow support.
 
-- Multi-service honeypot deployment
-- SSH attack monitoring
-- Web attack logging
-- ML-based attacker profiling
-- Centralised dashboard
-- Attack analytics
+### Threat Hunting Lab
+A blue-team lab covering Windows Event Log analysis, Sigma rules, and MITRE ATT&CK-mapped detection use cases.
 
 ---
 
-## 📊 SOC Detection Lab
+## 📚 Research
 
-Hands-on Security Operations laboratory focusing on:
+**A Post-Quantum-Resilient IoT Device Authentication Framework**
+Published in the *International Research Journal on Advanced Engineering and Management (IRJAEM)*. Proposes PQ-IoTGuard, a framework combining lattice-based cryptography, AI-driven anomaly detection, blockchain, and Zero Trust principles to secure IoT authentication against quantum-era threats.
+📄 [Read the paper](https://goldncloudpublications.com/index.php/irjaem/article/view/1645)
 
-- SIEM investigations
-- Log analysis
-- Alert triage
-- Detection engineering
-- Incident investigation
-
----
-
-## 🌐 Web Application Security Lab
-
-A practical penetration testing environment covering:
-
-- OWASP Top 10
-- Burp Suite
-- SQL Injection
-- XSS
-- Authentication testing
-- Security recommendations
+**Ethical Hacking and Its Impact on Society**
+An academic paper on ethical hacking, security testing, responsible disclosure, and the ethics of cybersecurity practice.
 
 ---
 
-## 🐍 Python Security Tools
-
-Collection of Python utilities developed for security automation including:
-
-- Log analysis
-- IOC extraction
-- Network reconnaissance
-- Security automation
-- Detection workflows
-
----
-
-## 🎯 Threat Hunting Lab
-
-Blue-team focused laboratory exploring:
-
-- Windows Event Logs
-- Sigma Rules
-- MITRE ATT&CK
-- Threat Hunting
-- Detection use cases
-
----
-
-# 📚 Research
-
-## A Post-Quantum-Resilient IoT Device Authentication Framework
-
-Published in:
-
-**International Research Journal on Advanced Engineering and Management (IRJAEM)**
-
-The research proposes **PQ-IoTGuard**, a framework that combines:
-
-- Lattice-based cryptography
-- AI-driven anomaly detection
-- Blockchain
-- Zero Trust concepts
-
-to strengthen IoT authentication against emerging quantum computing threats.
-
-📄 Publication
-
-https://goldncloudpublications.com/index.php/irjaem/article/view/1645
-
----
-
-## Ethical Hacking and Its Impact on Society
-
-An academic publication exploring:
-
-- Ethical hacking
-- Security testing
-- Responsible disclosure
-- Cybersecurity ethics
-- Future challenges
-
----
-
-# 🏆 Achievements
+## 🏆 Achievements & Certifications
 
 - Hall of Fame — Cyber & Forensics Security Solutions (CFSS)
 - Top 20 — Ajman University CTF
 - Certified Ethical Hacker (CEH)
 - Certified Penetration Tester (CPT)
 - ISO/IEC 27001 Information Security Associate
+- Google Cybersecurity Professional Certificate
+- Microsoft SC-900
 
 ---
 
-# 💻 Technical Skills
+## 💻 Technical Skills
 
-### Security
+**Security:** SOC operations, threat detection, incident response, penetration testing, vulnerability assessment, threat hunting
 
-- Security Operations (SOC)
-- Threat Detection
-- Incident Response
-- Penetration Testing
-- Vulnerability Assessment
-- Threat Hunting
+**Tools:** Splunk, Burp Suite, Metasploit, Wireshark, Nmap, Cowrie, Kali Linux
 
-### Tools
-
-- Splunk
-- Burp Suite
-- Metasploit
-- Wireshark
-- Nmap
-- Cowrie
-- Kali Linux
-
-### Programming
-
-- Python
-- Bash
-- PowerShell
-- JavaScript
-- HTML
+**Programming:** Python, Bash, PowerShell, JavaScript, HTML
 
 ---
 
-# 📖 Currently Learning
-
-Cybersecurity is constantly evolving, and so is my learning.
-
-Currently I'm focusing on:
+## 📖 Currently Learning
 
 - Microsoft Sentinel
-- Detection Engineering
-- Sigma Rules
-- Malware Analysis
-- Active Directory Security
-- Security Automation
-- Purple Teaming
+- Detection engineering & Sigma rules
+- Malware analysis
+- Active Directory security
+- Security automation
+- Purple teaming
 
 ---
 
-# 🎯 Career Goal
+## 🎯 Career Goal
 
-I'm seeking opportunities where I can contribute to:
-
-- Security Operations Center (SOC)
-- Threat Detection
-- Incident Response
-- Detection Engineering
-- Threat Hunting
-
-while continuing to build practical cybersecurity solutions and contribute to the security community.
+Looking for opportunities in Security Operations, Threat Detection, Incident Response, or Detection Engineering, while continuing to build practical security projects and contribute to the community.
 
 ---
 
-# 🤝 Let's Connect
+## 🤝 Let's Connect
 
-If you're interested in cybersecurity, research, collaboration or simply exchanging ideas, feel free to connect.
-
-- 💼 LinkedIn
-- ✍️ Medium
-- 📧 Email
+- 💼 [LinkedIn](https://linkedin.com/in/muhammedshain)
+- 📧 [Email](https://github.com/shain-sec)
