@@ -106,27 +106,6 @@ Academic research examining ethical hacking, security testing, responsible discl
 **Operating Systems:** Kali Linux, Ubuntu, Windows
 
 **Programming:** Python
-
----
-
-## 📖 Currently Learning
-
-- Microsoft Sentinel and KQL
-- SIEM investigation and alert triage
-- Detection engineering and Sigma rules
-- Windows security event analysis
-- Incident response workflows
-
----
-
-## 🎯 Career Interests
-
-- SOC Analyst (L1)
-- Cybersecurity Analyst
-- Security Operations
-- Vulnerability Assessment and Penetration Testing
-- Security Engineering
-
 ---
 
 ## 🤝 Connect
